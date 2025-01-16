@@ -183,6 +183,9 @@ func init() {
 		publicRoute.GET("/", IndexView)
 		//publicRoute.GET("/sitemap.xml", SiteMapView)
 		publicRoute.GET("/rss.xml", RSSView)
+		publicRoute.GET("/robots.txt", func(c *gin.Context) {
+			c.String(http.StatusOK, "User-agent: *\nDisallow: /")
+		})
 		publicRoute.GET("/assets/:asset", AssetView)
 
 		publicRoute.GET("/tag/:tag", IndexView)
