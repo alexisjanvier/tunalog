@@ -6,7 +6,7 @@
     "button_edit": "Modifier",
     "button_filterapply": "Appliquer et rechercher",
     "button_filterreset": "Réinitialiser",
-    "button_trashpost": "Mettre à la corbeille",
+    "button_trashpost": "Corbeille",
     "button_untrashpost": "Restaurer",
     "button_deletepost": "Supprimer définitivement",
     "button_publishpost": "Publier l'article",
@@ -155,7 +155,7 @@
     "postcreate_other": "Autre",
     "postcreate_pin": "Épingler cet article",
 
-    "postedit_postedit": "Modifier l'article",
+    "postedit_postedit": "Modifier",
     "postedit_viewpost": "Voir l'article actuel",
 
     "posts_list": "Liste des articles",
